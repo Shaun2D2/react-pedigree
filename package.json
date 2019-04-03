@@ -1,0 +1,19 @@
+{
+  "name": "react-pedigree",
+  "version": "1.0.0",
+  "description": "A super useful react component for rendering a pedigree",
+  "main": "dis/index.js",
+  "repository": {
+    "url": "git@github.com:Shaun2D2/react-pedigree.git",
+    "type": "git"
+  },
+  "author": "Shaun Lobisnger <Shaun.lobsinger@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^5.0.6",
+    "webpack": "^4.29.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook"
+  }
+}
