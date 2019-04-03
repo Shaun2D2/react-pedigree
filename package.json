@@ -1,5 +1,5 @@
 {
-  "name": "react-pedigree",
+  "name": "@jolobo/react-pedigree",
   "version": "1.0.0",
   "description": "A super useful react component for rendering a pedigree",
   "main": "dis/index.js",
@@ -10,10 +10,19 @@
   "author": "Shaun Lobisnger <Shaun.lobsinger@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
     "@storybook/react": "^5.0.6",
-    "webpack": "^4.29.6"
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
   },
   "scripts": {
+    "build:prod": "webpack --mode production",
+    "build": "webpack --mode development",
     "storybook": "start-storybook"
   }
 }
