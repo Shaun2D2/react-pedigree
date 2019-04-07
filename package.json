@@ -1,8 +1,8 @@
 {
   "name": "@jolobo/react-pedigree",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A super useful react component for rendering a pedigree",
-  "main": "dis/index.js",
+  "main": "dis/bundle.js",
   "repository": {
     "url": "git@github.com:Shaun2D2/react-pedigree.git",
     "type": "git"
@@ -14,18 +14,21 @@
     "@storybook/react": "^5.0.6",
     "babel-loader": "^8.0.5",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "webpack-cli": "^3.3.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-lineto": "^3.1.3",
-    "sass-loader": "^7.1.0"
+    "react-lineto": "^3.1.3"
   },
   "scripts": {
     "build:prod": "webpack --mode production",
     "build": "webpack --mode development",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "publish": "npm publish --access public"
   }
 }
