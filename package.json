@@ -1,6 +1,6 @@
 {
   "name": "@jolobo/react-pedigree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super useful react component for rendering a pedigree",
   "main": "dis/bundle.js",
   "repository": {
