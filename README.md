@@ -15,17 +15,17 @@ const Example = () => {
         [
             {
                 name: 'James Smith',
-                dob: '10-01-2019
+                dob: '10-01-2019'
             }
         ],
         [
             {
                 name: 'Jerry Smith',
-                dob: '10-01-2019
+                dob: '10-01-2019'
             },
             {
                 name: 'Jane Smith',
-                dob: '10-01-2019
+                dob: '10-01-2019'
             }
         ]
     ]
