@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
@@ -23,5 +25,5 @@ storiesOf('Card', module)
 
 storiesOf('Pedigree', module)
   .add('with last Gen', () => (
-      <Index data={data} />
+    <Index data={data} />
   ));
